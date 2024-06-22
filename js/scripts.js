@@ -78,10 +78,10 @@ const ctxCrypto = document.getElementById('crypto_chart').getContext('2d');
 const cryptoChart = new Chart(ctxCrypto, {
     type: 'bar',
     data: {
-        labels: ['Bitcoin', 'Ethereum', 'Ripple', 'Litecoin', 'Cardano'], // Ejemplo de criptomonedas
+        labels: ['Bitcoin', 'Ethereum', 'Ripple', 'Litecoin', 'Cardano'],
         datasets: [{
             label: 'Crypto Volume',
-            data: [500, 400, 300, 200, 100], // Ejemplo de volúmenes
+            data: [500, 400, 300, 200, 100],
             backgroundColor: 'rgba(75, 192, 192, 0.2)',
             borderColor: 'rgba(75, 192, 192, 1)',
             borderWidth: 1
@@ -119,7 +119,7 @@ const nftsChart = new Chart(ctxNFTs, {
                 {x: 8, y: 3},
                 {x: 12, y: 4},
                 {x: 20, y: 5}
-            ], // Ejemplo de datos (precio vs rareza)
+            ],
             backgroundColor: 'rgba(75, 192, 192, 1)'
         }]
     },
