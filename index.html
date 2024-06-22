@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Financial Dashboard</h1>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#stocks">Stocks</a></li>
+            <li><a href="#crypto">Crypto</a></li>
+            <li><a href="#nfts">NFTs</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="overview">
+            <h2>Overview</h2>
+            <!--Gráficos y estadísticas generales-->
+            <canvas id="overview_chart" width="400" height="400"></canvas>
+        </section>
+        <section id="stocks">
+            <h2>Stocks</h2>
+            <!--Información y gráficos sobre acciones-->
+            <canvas id="stocks_chart" width="400" height="400"></canvas>
+        </section>
+        <section id="crypto">
+            <h2>Crypto</h2>
+            <!--Información y gráficos sobre criptomonedas-->
+            <canvas id="crypto_chart" width="400" height="400"></canvas>
+        </section>
+        <section id="nfts">
+            <h2>NFTs</h2>
+            <!--Información y gráficos sobre NFTs-->
+            <canvas id="nfts_chart" width="400" height="400"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Financial Dashboard. All rights reserved.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-financial/dist/chartjs-chart-financial.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@latest"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
